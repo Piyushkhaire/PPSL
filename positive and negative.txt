@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;N
+int main()
+{
+	int num;
+	cout<<"enter a number:";
+	cin>>num;
+	if(num>=0)
+	{
+		cout<<"the number"<<num<<"is positive/n";
+	}
+	else{
+		cout<<"the number"<<num<<"is negative/n";
+	}
+	return 0;
+}
